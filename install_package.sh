@@ -10,7 +10,7 @@ info
 
 echo "Installing the package $1"
 
-sudo apt-get update > /dev/null
-sudo apt-get install $1 -y > /dev/null
+sudo apt-get update 
+sudo apt-get install $1 -y 
 
 echo "Installation of packages are done & completed..!"
